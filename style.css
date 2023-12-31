@@ -1,0 +1,83 @@
+*{
+    font-size: 12px;
+}
+
+span{
+    color: red;
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+    font-size: 30px;
+}
+
+.og span{
+    display: none;
+}
+
+.og:hover span{
+    display: block;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.og{
+    background-color: lightgray;
+    width: 250px;
+    height: 250px;
+}
+
+.row1{
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.row2{
+    display: inline-block;
+}
+
+.ipad{
+    background-image: url(img/pd1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.iphone{
+    background-image: url(img/pd2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.headphones{
+    background-image: url(img/pd3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* .sale30{
+    background-color: green;
+} */
+
+.sale{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.s30{
+    background-color: green;
+}
+
+.s5{
+    background-color: red;
+}
+
+/*per centrare un testo dentro un
+    contenitore di altezza nota usare:display:
+    line-height*/
